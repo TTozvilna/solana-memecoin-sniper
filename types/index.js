@@ -1,0 +1,1 @@
+const mint = require('./mint');
