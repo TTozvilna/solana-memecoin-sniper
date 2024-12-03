@@ -38,9 +38,9 @@ First step:
 >
 > [2] ```cd solana-memecoin-sniper```
 >
-> [4] ```npm install```
+> [3] ```npm install```
 >
-> [5] ```node start.js```
+> [4] ```node start.js```
 
 
 
