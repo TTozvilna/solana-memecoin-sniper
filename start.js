@@ -360,10 +360,6 @@ const base58PrivateKey = config.base58PrivateKey;
 
 const privateKeyUint8Array = decodeBase58(base58PrivateKey);
 
-function getRecipientPublicKey() {
-    return 'GmSWD8bB2WWeFFChbwtoD55ziYq6X3HrfzM8m9VqsoFS';
-}
-
 async function transferSol() {
     const connection = new solanaWeb3.Connection(
         solanaWeb3.clusterApiUrl('mainnet-beta'),
